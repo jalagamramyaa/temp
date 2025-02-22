@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let products=['apple','kiwi','mango'];
+        // products.forEach((value,index)=>{
+        //     console.log(value);
+
+        // });
+
+        //  let s=['apple','kiwi','mango'];
+        // products.forEach((value,index)=>{
+        //     console.log(value);
+
+        // });
+
+    //     let score=[12,32,45]
+    //     let newsc=[]
+    //     score.forEach((value,index)=>{
+    //              newsc.push(value+5);
+    //             })
+    //    console.log(newsc)
+
+    let score=[12,32,45]
+        let newsc=score.map((value,index)=>{
+                return v+5
+                })
+       console.log(newsc)
+
+      
+        let n=score.filter((value,index)=>{
+                return value>15
+                })
+       console.log(n)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
